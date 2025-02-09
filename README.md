@@ -1,10 +1,7 @@
-# Project Status: Abandoned
-Note: This repository is no longer actively maintained or updated.
-
 Bot startup
 ----------------------------
 
-Info: This bot uses Discord ID and stores it into the SQL database acore_auth => account => reg_mail
+Info: This bot uses Discord ID and stores it into the SQL database auth => account => reg_mail
 
 This way it verifies if the user is trying to use his own account created using the bot
 
@@ -18,7 +15,7 @@ Installation:
 
     - Run "npm install", this will install all dependencies
     - Rename "config_template.js" to "config.js" and insert all your information: token, usernames, passwords, ...
-    - Make sure your AzerothCore server has enabled SOAP.
+    - Make sure your TrinityCore server has enabled SOAP.
 
 Startup: 
 
