@@ -39,7 +39,7 @@ function Soap(command){
 	    ' xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"' +
 	    ' xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"' +
 	    ' xmlns:xsd="http://www.w3.org/1999/XMLSchema"' +
-	    ' xmlns:ns1="urn:AC">' +
+	    ' xmlns:ns1="urn:TC">' +
 	    '<SOAP-ENV:Body>' +
 	    '<ns1:executeCommand>' +
 		'<command>'+command+'</command>' +
